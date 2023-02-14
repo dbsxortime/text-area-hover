@@ -3,7 +3,7 @@ import styled from "styled-components"
 import './hover.css'
 
 function App() {
-	const [text, setText] = useState('처음 시도해보는 마우스 Hover효과로, 처음 위치에서 마우스가 올라간 곳 까지 텍스트 색이 채워지는 효과가 더해지는 이전에 없던 새로운 효과를 체험 해보세요.')
+	const [text, setText] = useState('텍스트에 마우스를 올려 Hover 효과를 체험해보세요. 처음 위치에서 마우스가 올라간 곳 까지 텍스트 색이 채워지는 효과가 더해지는 이전에 없던 새로운 효과를 체험 해보세요.')
 	const [type, setType] = useState(true)
 	const [result, setResult] = useState([])
 	const [hoverIdx, setHoverIdx] = useState(0)
